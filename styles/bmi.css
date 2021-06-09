@@ -1,0 +1,44 @@
+.body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.images {
+	padding-top: 100px;
+	padding-right: 50px;
+}
+
+.body-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 50px;
+	font-family: "Montserrat";
+	margin-top: 50px;
+}
+
+.body-button {
+	height: 50px;
+	width: 200px;
+	border-radius: 30px;
+	border-width: 1px;
+	border-color: #0239d1;
+	background-color: #0239d1;
+	color: white;
+	font-size: 20px;
+	font-family: "Montserrat";
+	margin-top: 70px;
+	cursor: pointer;
+}
+
+label {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
