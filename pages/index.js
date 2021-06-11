@@ -1,8 +1,6 @@
-//import Image from "next/image"
-import { useEffect, useState } from "react"
 import Link from "next/link"
 
-export default function Home({ cars }) {
+export default function Home() {
 	return (
 		<div className="body">
 			<div className="images">
@@ -17,16 +15,4 @@ export default function Home({ cars }) {
 			</div>
 		</div>
 	)
-}
-
-export async function getStaticProps(context) {
-	const cars = await fetch("http://127.0.0.1:3000/api/hello/").then((res) =>
-		res.json()
-	)
-
-	return {
-		props: {
-			cars,
-		},
-	}
 }
