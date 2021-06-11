@@ -12,7 +12,7 @@ export default function Home({ cars }) {
 				<h1 className="title">Calculer votre IMC</h1>
 
 				<Link href="/form">
-					<button className="body-button">Commencez</button>
+					<button className="btn btn-primary body-button">Commencez</button>
 				</Link>
 			</div>
 		</div>
