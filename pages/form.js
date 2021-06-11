@@ -9,7 +9,8 @@ export default function Form() {
 	const submitForm = (event) => {
 		event.preventDefault()
 
-		fetch("http://127.0.0.1:3000/api/form", {
+		//local API addresse : http://127.0.0.1:3000/api/form
+		fetch("https://imc-app.vercel.app/api/form", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
